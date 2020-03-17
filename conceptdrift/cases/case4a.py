@@ -1,7 +1,7 @@
 import time
 import numpy as np
 import conceptdrift.alg.AdaptativeChange as ac
-from conceptdrift.gen.gen import gengenDataLine, genDataPol
+from conceptdrift.gen.gen import genDataLine, genDataPol
 
 ## Caso 4 Outliers - Prueba 1 - Outliers continuados
 if __name__ == "__main__":
