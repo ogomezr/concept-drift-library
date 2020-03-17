@@ -1,5 +1,8 @@
 import time
 import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 import conceptdrift.alg.AdaptativeChange as ac
 from conceptdrift.gen.gen import genDataLine, genDataPol
 
