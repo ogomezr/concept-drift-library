@@ -14,7 +14,7 @@ plt.style.use('seaborn')
 class AdaptativeChange(ABC):
     @abstractclassmethod
     def __init__(self, sizeBig, sizeSmall, x, y, phAdmissibleChange,
-             phThreshold, mode=['lin', 'knn', 'pol', 'tree']):
+             phThreshold, mode=['lin', 'pol', 'tree']):
         if len(x)>sizeBig:
             x = x[len(x)-sizeBig:len(x)]
             y = y[len(y)-sizeBig:len(y)]
