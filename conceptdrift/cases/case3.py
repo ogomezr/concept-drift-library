@@ -86,5 +86,3 @@ if __name__ == "__main__":
     alg.printModel()
     alg.mae()
     print('Change Points: ' + str(alg.changePoints))
-    print(f"Total Time Taken: {time.time() - start:.3f} sec")
-
