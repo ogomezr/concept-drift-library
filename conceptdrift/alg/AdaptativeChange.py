@@ -107,7 +107,7 @@ class AdaptativeChange(ABC):
         
 class DetectChangeAlg(AdaptativeChange):
     def __init__(self, sizeBig, sizeSmall, x, y, phAdmissibleChange,
-                 phThreshold, mode=['lin', 'knn', 'pol', 'tree'], minCont=25):
+                 phThreshold, mode=['lin', 'pol', 'tree'], minCont=25):
         super().__init__(sizeBig, sizeSmall, x, y, phAdmissibleChange,
                  phThreshold, mode)
         self.debt = False
@@ -151,7 +151,7 @@ class DetectChangeAlg(AdaptativeChange):
 
 class DetectChangeAlgOnline(AdaptativeChange):
     def __init__(self, sizeBig, sizeSmall, x, y, phAdmissibleChange,
-                 phThreshold, mode=['lin', 'knn', 'pol', 'tree']):
+                 phThreshold, mode=['lin', 'pol', 'tree']):
         super().__init__(sizeBig, sizeSmall, x, y, phAdmissibleChange,
                  phThreshold, mode)
 
