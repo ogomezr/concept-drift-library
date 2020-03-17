@@ -1,7 +1,6 @@
 import statsmodels.api as sm
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
-from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import cross_val_score
 import matplotlib.pyplot as plt
@@ -16,7 +15,7 @@ class ChooseModel:
         self.bestModel = None
         self.lastScores = []
 
-    def chooseBest(self, x, y, mode=['lin', 'knn', 'pol', 'tree']):
+    def chooseBest(self, x, y, mode=['lin', 'pol', 'tree']):
         X = sm.add_constant(x)
 
         polynomial_features = PolynomialFeatures(degree=3)
@@ -29,10 +28,6 @@ class ChooseModel:
             tree = DecisionTreeRegressor()
             treeScores = cross_val_score(tree, X, y, cv=times)
             scores.append((treeScores.mean(), "DecisionTreeReg", tree))
-        if 'knn' in mode:
-            knn = KNeighborsRegressor()
-            knnScores = cross_val_score(knn, X, y, cv=times)
-            scores.append((knnScores.mean(), "K Nearest Neighbors", knn))
         if 'pol' in mode:
             polyReg = LinearRegression()
             polScores = cross_val_score(polyReg, xPoly, y, cv=times)
