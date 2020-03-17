@@ -24,7 +24,7 @@ if __name__ == "__main__":
     plt.scatter(x1+x2,y1+y2)
     plt.show()
 
-    alg = ac.DetectChangeAlgOnline(300, 100, xbuild, ybuild, 0.2, 100)
+    alg = ac.DetectChangeAlgOnline(300, 100, xbuild, ybuild, 0.2, 20)
     alg.printModel()
     start = time.time()
     alg.addData(x, y)
