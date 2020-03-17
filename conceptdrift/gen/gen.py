@@ -1,3 +1,5 @@
+import numpy as np
+
 def genDataLine(m, n, nS, mu, sigma):
     epsilon = np.random.normal(mu, sigma, nS)
     x = np.random.rand(nS)*10
