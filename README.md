@@ -11,10 +11,8 @@ Los 4 módulos de esta librería son:
 * **Simulation:**  *Incluye casos de prueba para validar los diferentes algoritmos.*  
 
 ![Alt text](img/uml.jpeg)
+
 ## Instrucciones 
-
-
-
 
 ### Pre-requisitos 📋
 
@@ -88,9 +86,6 @@ pip install pandas
 ```
 pip install seaborn
 ```
-
-
-
 
 ## Ejecución de las simulaciones ⚙️
 
