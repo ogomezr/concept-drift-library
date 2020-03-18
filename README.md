@@ -12,6 +12,7 @@ Los 4 módulos de esta librería son:
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 ![Alt text](img/uml.jpeg)
+<img src="img/uml.jpeg">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 ## Instrucciones 
