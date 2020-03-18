@@ -10,10 +10,10 @@ Los 4 módulos de esta librería son:
 * **AdaptativeChange:**  *Incluye dos diferentes algoritmos, versión estándar y versión oline, hacen uso de los dos anteriores módulos, y se encarga del procesamiento de datos.* 
 * **Simulation:**  *Incluye casos de prueba para validar los diferentes algoritmos.*  
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-![Alt text](img/uml.jpeg)
-<img src="img/uml.jpeg">
-<p>&nbsp;</p>
+<p align="center">
+  <img src="img/uml.jpeg">
+</p>
+
 <p>&nbsp;</p>
 ## Instrucciones 
 
