@@ -9,15 +9,15 @@ Los 4 módulos de esta librería son:
 * **ChooseModel:**  *Búsqueda de modelo.*  
 * **AdaptativeChange:**  *Incluye dos diferentes algoritmos, versión estándar y versión oline, hacen uso de los dos anteriores módulos, y se encarga del procesamiento de datos.* 
 * **Simulation:**  *Incluye casos de prueba para validar los diferentes algoritmos.*  
-&nbsp;
+
 ![Alt text](img/uml.jpeg)
-&nbsp;
+
 ## Instrucciones 
 
 ### Pre-requisitos 📋
 
 Para utilizar esta librerías es necesario disponer de Python instalado en tu equipo. 
-* [Python]([https://www.python.org/downloads/](https://www.python.org/downloads/)) 
+* [Python](https://www.python.org/downloads/)
 
 Una vez disponemos de Python, descargar el repositorio desde GitHub o usando desde la consola el comando:
 
