@@ -9,9 +9,9 @@ Los 4 módulos de esta librería son:
 * **ChooseModel:**  *Búsqueda de modelo.*  
 * **AdaptativeChange:**  *Incluye dos diferentes algoritmos, versión estándar y versión oline, hacen uso de los dos anteriores módulos, y se encarga del procesamiento de datos.* 
 * **Simulation:**  *Incluye casos de prueba para validar los diferentes algoritmos.*  
-
+&nbsp;
 ![Alt text](img/uml.jpeg)
-
+&nbsp;
 ## Instrucciones 
 
 ### Pre-requisitos 📋
