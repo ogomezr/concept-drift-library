@@ -1,6 +1,6 @@
 # Algoritmo Adaptativo ('Concept Drift')
 
-Librería que incluye dos versiones de un algoritmo adaptativo y reactivo ante el fenómeno conocido como 'Concept Drif') .
+Librería que incluye dos versiones de un algoritmo adaptativo y reactivo ante el fenómeno conocido como 'Concept Drif'.
 
 Utiliza un detector de cambios ( Page-Hinkley Test ), tamaño de ventana de datos variable, técnica de olvido de datos abrupta, y automatización de búsqueda del modelo más preciso.
 
