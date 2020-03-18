@@ -109,4 +109,4 @@ Obtendremos los resultados y gráficos del caso 1.
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia MIT - más detalles en el archivo [LICENSE.md](LICENSE.md).
+Este proyecto está bajo la Licencia MIT - más detalles en el archivo LICENSE.
